@@ -23,7 +23,7 @@
 | Model              | RMSE  | MSE   | R²     |
 |--------------------|------:|------:|:------:|
 | Linear Regression  | 15.03 | 3.87 | 0.9998 |
-| Random Forest      | 26.15 | 683.8 | 0.9996 |
+| Random Forest      | 26.15 | 5.11 | 0.9996 |
 
 This repository provides a concise, reproducible pipeline for forecasting daily gold prices. The focus is on robust time-series preparation (time-aware train/validation/test splits, scaling, and lag/rolling features) and apples-to-apples model benchmarking with consistent metrics. The current window covers 2013–2023 daily prices; the pipeline can optionally ingest exogenous signals (e.g., FX rates, interest rates, indices) without changing the interface, so you can iterate quickly as data availability evolves.
 
