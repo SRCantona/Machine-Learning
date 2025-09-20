@@ -19,7 +19,7 @@
 
 ---
 
-## 📊 Results (sample — replace with your run)
+## 📊 Results 
 | Model              | RMSE  | MSE   | R²     |
 |--------------------|------:|------:|:------:|
 | Linear Regression  | 15.03 | 226.0 | 0.9998 |
